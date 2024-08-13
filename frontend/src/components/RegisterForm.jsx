@@ -5,12 +5,14 @@ function RegisterForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [userType, setUserType] = useState('nurse');
   const [message, setMessage] = useState('');
 
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3000/api/nurses', { name, email, password });
+      const endpoint = userType === 'nurse' ? '/api/nurses' : '/api/patients';
+      const response = await axios.post(`http://localhost:3000${endpoint}`, { name, email, password });
       setMessage('Registration successful!');
     } catch (err) {
       setMessage('Registration failed');
@@ -51,6 +53,17 @@ function RegisterForm() {
             className="w-full p-2 border border-gray-300 rounded"
             required
           />
+        </div>
+        <div className="mb-4">
+          <label className="block mb-2">Register as</label>
+          <select
+            value={userType}
+            onChange={(e) => setUserType(e.target.value)}
+            className="w-full p-2 border border-gray-300 rounded"
+          >
+            <option value="nurse">Nurse</option>
+            <option value="patient">Patient</option>
+          </select>
         </div>
         <button
           type="submit"

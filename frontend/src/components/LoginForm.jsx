@@ -5,18 +5,21 @@ import axios from 'axios';
 function LoginForm() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [userType, setUserType] = useState('nurse');
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3000/api/nurses/login', { email, password });
+      const endpoint = userType === 'nurse' ? '/api/nurses/login' : '/api/patients/login';
+      const response = await axios.post(`http://localhost:3000${endpoint}`, { email, password });
       if (response.data.token) {
         // Save the token in localStorage or in a state management library like Redux
         localStorage.setItem('token', response.data.token);
         // Navigate to the appropriate dashboard based on user type
-        navigate('/nurse-dashboard');
+        const dashboard = userType === 'nurse' ? '/nurse-dashboard' : '/patient-dashboard';
+        navigate(dashboard);
       }
     } catch (err) {
       setError('Invalid credentials');
@@ -47,6 +50,17 @@ function LoginForm() {
             className="w-full p-2 border border-gray-300 rounded"
             required
           />
+        </div>
+        <div className="mb-4">
+          <label className="block mb-2">Login as</label>
+          <select
+            value={userType}
+            onChange={(e) => setUserType(e.target.value)}
+            className="w-full p-2 border border-gray-300 rounded"
+          >
+            <option value="nurse">Nurse</option>
+            <option value="patient">Patient</option>
+          </select>
         </div>
         <button
           type="submit"

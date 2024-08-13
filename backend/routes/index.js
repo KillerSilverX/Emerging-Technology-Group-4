@@ -1,12 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const nurseController = require('../controllers/nurseController');
-const patientController = require('../controllers/patientController');
+const nurseRoutes = require('./nurseRoutes');
+const patientRoutes = require('./patientRoutes');
 
-// Define routes here
-router.post('/nurses', nurseController.register);
-router.post('/nurses/login', nurseController.login);
-router.get('/patients', patientController.getAll);
-router.post('/patients', patientController.create);
+router.use(nurseRoutes);
+router.use(patientRoutes);
 
 module.exports = router;

@@ -4,16 +4,18 @@ module.exports = gql`
   type Patient {
     id: ID!
     name: String!
-    age: Int!
-    condition: String!
-    nurseId: ID!
+    email: String!
+    password: String!
+  }
+
+  type Token {
+    token: String!
   }
 
   input PatientInput {
     name: String!
-    age: Int!
-    condition: String!
-    nurseId: ID!
+    email: String!
+    password: String!
   }
 
   type Query {
@@ -22,8 +24,7 @@ module.exports = gql`
   }
 
   type Mutation {
-    createPatient(input: PatientInput!): Patient!
-    updatePatient(id: ID!, input: PatientInput!): Patient!
-    deletePatient(id: ID!): Patient!
+    registerPatient(input: PatientInput!): Patient!
+    loginPatient(email: String!, password: String!): Token!
   }
 `;
