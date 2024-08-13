@@ -6,6 +6,8 @@ const { graphqlHTTP } = require('express-graphql');
 const schema = require('./schemas/schema');
 const app = express();
 
+mongoose.set('strictQuery', false);
+
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -28,3 +30,4 @@ mongoose.connect(process.env.MONGO_URI, {
 }).catch(err => {
   console.error('Error connecting to MongoDB:', err);
 });
+

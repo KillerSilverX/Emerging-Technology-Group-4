@@ -1,4 +1,4 @@
-const { makeExecutableSchema } = require('graphql-tools');
+const { makeExecutableSchema } = require('@graphql-tools/schema');
 const { merge } = require('lodash');
 const nurseSchema = require('./nurseSchema');
 const patientSchema = require('./patientSchema');
