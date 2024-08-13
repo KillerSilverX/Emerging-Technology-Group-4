@@ -10,7 +10,7 @@ function RegisterForm() {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('/api/nurses', { name, email, password });
+      const response = await axios.post('http://localhost:3000/api/nurses', { name, email, password });
       setMessage('Registration successful!');
     } catch (err) {
       setMessage('Registration failed');

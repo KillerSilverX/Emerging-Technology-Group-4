@@ -11,7 +11,7 @@ function LoginForm() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('/api/nurses/login', { email, password });
+      const response = await axios.post('http://localhost:3000/api/nurses/login', { email, password });
       if (response.data.token) {
         // Save the token in localStorage or in a state management library like Redux
         localStorage.setItem('token', response.data.token);
