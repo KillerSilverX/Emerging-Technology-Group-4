@@ -5,7 +5,7 @@ import RegisterForm from './components/RegisterForm';
 import NurseDashboard from './components/NurseDashboard';
 import PatientDashboard from './components/PatientDashboard';
 
-function App() {
+export default function AppRouter() {
   return (
     <Router>
       <Routes>
@@ -17,5 +17,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
