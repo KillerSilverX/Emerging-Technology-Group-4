@@ -11,6 +11,8 @@ This application allows nurses to record and monitor patients' vital signs. It i
 
 ## Installation Instructions
 
+Run Mongod.exe :)
+
 ### Backend
 
 1. Open a terminal and navigate to the `backend` directory.
