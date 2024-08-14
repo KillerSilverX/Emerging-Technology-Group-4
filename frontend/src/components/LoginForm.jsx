@@ -17,6 +17,8 @@ function LoginForm() {
       if (response.data.token) {
         // Save the token in localStorage or in a state management library like Redux
         localStorage.setItem('token', response.data.token);
+        localStorage.setItem('nurseId', response.data.nurseId);
+        localStorage.setItem('patientId', response.data.patientId);
         // Navigate to the appropriate dashboard based on user type
         const dashboard = userType === 'nurse' ? '/nurse-dashboard' : '/patient-dashboard';
         navigate(dashboard);

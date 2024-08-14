@@ -21,7 +21,7 @@ exports.login = async (req, res) => {
     const token = jwt.sign({ id: nurse._id }, process.env.JWT_SECRET, {
       expiresIn: '1d',
     });
-    res.status(200).json({ token });
+    res.status(200).json({ token , nurseId: nurse._id });
   } catch (error) {
     res.status(400).json({ error: error.message });
   }

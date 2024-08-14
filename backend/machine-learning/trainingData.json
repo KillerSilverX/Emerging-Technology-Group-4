@@ -1,0 +1,1095 @@
+[
+  {
+    "temperature": 36.5,
+    "heartRate": 70,
+    "bloodPressure": "120/80",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39,
+    "heartRate": 100,
+    "bloodPressure": "150/95",
+    "respiratoryRate": 22,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.8,
+    "heartRate": 85,
+    "bloodPressure": "135/85",
+    "respiratoryRate": 18,
+    "conditions": [0, 0, 1, 0]
+  },
+  {
+    "temperature": 37.2,
+    "heartRate": 75,
+    "bloodPressure": "128/78",
+    "respiratoryRate": 20,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.5,
+    "heartRate": 105,
+    "bloodPressure": "160/100",
+    "respiratoryRate": 24,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.9,
+    "heartRate": 72,
+    "bloodPressure": "122/82",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 37.8,
+    "heartRate": 95,
+    "bloodPressure": "140/90",
+    "respiratoryRate": 20,
+    "conditions": [0, 1, 0, 0]
+  },
+  {
+    "temperature": 37.4,
+    "heartRate": 78,
+    "bloodPressure": "130/85",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.2,
+    "heartRate": 110,
+    "bloodPressure": "155/100",
+    "respiratoryRate": 25,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.7,
+    "heartRate": 80,
+    "bloodPressure": "125/80",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.2,
+    "heartRate": 90,
+    "bloodPressure": "145/95",
+    "respiratoryRate": 21,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 37.1,
+    "heartRate": 74,
+    "bloodPressure": "129/84",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.7,
+    "heartRate": 102,
+    "bloodPressure": "150/100",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.4,
+    "heartRate": 68,
+    "bloodPressure": "118/78",
+    "respiratoryRate": 15,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 37.9,
+    "heartRate": 97,
+    "bloodPressure": "142/92",
+    "respiratoryRate": 20,
+    "conditions": [0, 1, 0, 0]
+  },
+  {
+    "temperature": 37.3,
+    "heartRate": 76,
+    "bloodPressure": "132/86",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.1,
+    "heartRate": 108,
+    "bloodPressure": "154/99",
+    "respiratoryRate": 24,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.6,
+    "heartRate": 72,
+    "bloodPressure": "120/80",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.3,
+    "heartRate": 92,
+    "bloodPressure": "146/96",
+    "respiratoryRate": 21,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 37.0,
+    "heartRate": 70,
+    "bloodPressure": "127/83",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.9,
+    "heartRate": 105,
+    "bloodPressure": "158/102",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.3,
+    "heartRate": 65,
+    "bloodPressure": "115/75",
+    "respiratoryRate": 14,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.0,
+    "heartRate": 98,
+    "bloodPressure": "143/93",
+    "respiratoryRate": 19,
+    "conditions": [0, 1, 0, 0]
+  },
+  {
+    "temperature": 37.5,
+    "heartRate": 77,
+    "bloodPressure": "135/88",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.4,
+    "heartRate": 112,
+    "bloodPressure": "160/105",
+    "respiratoryRate": 26,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.9,
+    "heartRate": 73,
+    "bloodPressure": "121/81",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.6,
+    "heartRate": 103,
+    "bloodPressure": "148/98",
+    "respiratoryRate": 22,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 37.2,
+    "heartRate": 72,
+    "bloodPressure": "126/84",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.3,
+    "heartRate": 110,
+    "bloodPressure": "157/101",
+    "respiratoryRate": 24,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.7,
+    "heartRate": 70,
+    "bloodPressure": "119/79",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.1,
+    "heartRate": 95,
+    "bloodPressure": "144/94",
+    "respiratoryRate": 20,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 37.6,
+    "heartRate": 79,
+    "bloodPressure": "136/89",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.0,
+    "heartRate": 107,
+    "bloodPressure": "155/100",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.8,
+    "heartRate": 71,
+    "bloodPressure": "121/80",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.4,
+    "heartRate": 100,
+    "bloodPressure": "149/97",
+    "respiratoryRate": 21,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 37.1,
+    "heartRate": 75,
+    "bloodPressure": "130/85",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.2,
+    "heartRate": 109,
+    "bloodPressure": "156/101",
+    "respiratoryRate": 24,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.6,
+    "heartRate": 68,
+    "bloodPressure": "118/77",
+    "respiratoryRate": 15,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.8,
+    "heartRate": 106,
+    "bloodPressure": "153/100",
+    "respiratoryRate": 22,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.4,
+    "heartRate": 77,
+    "bloodPressure": "132/87",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.5,
+    "heartRate": 113,
+    "bloodPressure": "161/106",
+    "respiratoryRate": 26,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.0,
+    "heartRate": 71,
+    "bloodPressure": "125/82",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.9,
+    "heartRate": 104,
+    "bloodPressure": "150/100",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.3,
+    "heartRate": 75,
+    "bloodPressure": "128/83",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.7,
+    "heartRate": 114,
+    "bloodPressure": "163/107",
+    "respiratoryRate": 27,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.2,
+    "heartRate": 74,
+    "bloodPressure": "127/82",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.0,
+    "heartRate": 91,
+    "bloodPressure": "143/92",
+    "respiratoryRate": 20,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 36.5,
+    "heartRate": 69,
+    "bloodPressure": "117/76",
+    "respiratoryRate": 15,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.6,
+    "heartRate": 111,
+    "bloodPressure": "160/104",
+    "respiratoryRate": 26,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.7,
+    "heartRate": 79,
+    "bloodPressure": "134/88",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.0,
+    "heartRate": 108,
+    "bloodPressure": "154/102",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.4,
+    "heartRate": 66,
+    "bloodPressure": "116/75",
+    "respiratoryRate": 14,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.1,
+    "heartRate": 90,
+    "bloodPressure": "144/93",
+    "respiratoryRate": 21,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 36.9,
+    "heartRate": 72,
+    "bloodPressure": "122/82",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.8,
+    "heartRate": 115,
+    "bloodPressure": "164/108",
+    "respiratoryRate": 27,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.5,
+    "heartRate": 77,
+    "bloodPressure": "133/87",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.2,
+    "heartRate": 92,
+    "bloodPressure": "146/96",
+    "respiratoryRate": 21,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 36.8,
+    "heartRate": 70,
+    "bloodPressure": "121/80",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.7,
+    "heartRate": 104,
+    "bloodPressure": "151/99",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.4,
+    "heartRate": 76,
+    "bloodPressure": "132/86",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.9,
+    "heartRate": 116,
+    "bloodPressure": "165/109",
+    "respiratoryRate": 27,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.0,
+    "heartRate": 71,
+    "bloodPressure": "126/83",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.4,
+    "heartRate": 99,
+    "bloodPressure": "147/97",
+    "respiratoryRate": 22,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 36.6,
+    "heartRate": 69,
+    "bloodPressure": "118/78",
+    "respiratoryRate": 15,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.2,
+    "heartRate": 107,
+    "bloodPressure": "156/102",
+    "respiratoryRate": 24,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.3,
+    "heartRate": 74,
+    "bloodPressure": "129/84",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.5,
+    "heartRate": 101,
+    "bloodPressure": "150/99",
+    "respiratoryRate": 21,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 36.7,
+    "heartRate": 71,
+    "bloodPressure": "120/79",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.1,
+    "heartRate": 106,
+    "bloodPressure": "154/101",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.8,
+    "heartRate": 82,
+    "bloodPressure": "138/89",
+    "respiratoryRate": 20,
+    "conditions": [0, 1, 0, 0]
+  },
+  {
+    "temperature": 39.3,
+    "heartRate": 109,
+    "bloodPressure": "157/103",
+    "respiratoryRate": 24,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.9,
+    "heartRate": 73,
+    "bloodPressure": "123/81",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.7,
+    "heartRate": 114,
+    "bloodPressure": "162/107",
+    "respiratoryRate": 27,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.1,
+    "heartRate": 74,
+    "bloodPressure": "128/82",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.0,
+    "heartRate": 90,
+    "bloodPressure": "143/92",
+    "respiratoryRate": 19,
+    "conditions": [0, 1, 0, 0]
+  },
+  {
+    "temperature": 36.4,
+    "heartRate": 65,
+    "bloodPressure": "116/75",
+    "respiratoryRate": 14,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.5,
+    "heartRate": 112,
+    "bloodPressure": "160/105",
+    "respiratoryRate": 26,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.9,
+    "heartRate": 81,
+    "bloodPressure": "137/88",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+
+  {
+    "temperature": 36.5,
+    "heartRate": 70,
+    "bloodPressure": "120/80",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39,
+    "heartRate": 100,
+    "bloodPressure": "150/95",
+    "respiratoryRate": 22,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.8,
+    "heartRate": 85,
+    "bloodPressure": "135/85",
+    "respiratoryRate": 18,
+    "conditions": [0, 0, 1, 0]
+  },
+  {
+    "temperature": 37.2,
+    "heartRate": 75,
+    "bloodPressure": "128/78",
+    "respiratoryRate": 20,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.5,
+    "heartRate": 105,
+    "bloodPressure": "160/100",
+    "respiratoryRate": 24,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.9,
+    "heartRate": 72,
+    "bloodPressure": "122/82",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 37.8,
+    "heartRate": 95,
+    "bloodPressure": "140/90",
+    "respiratoryRate": 20,
+    "conditions": [0, 1, 0, 0]
+  },
+  {
+    "temperature": 37.4,
+    "heartRate": 78,
+    "bloodPressure": "130/85",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.2,
+    "heartRate": 110,
+    "bloodPressure": "155/100",
+    "respiratoryRate": 25,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.7,
+    "heartRate": 80,
+    "bloodPressure": "125/80",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.2,
+    "heartRate": 90,
+    "bloodPressure": "145/95",
+    "respiratoryRate": 21,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 37.1,
+    "heartRate": 74,
+    "bloodPressure": "129/84",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.7,
+    "heartRate": 102,
+    "bloodPressure": "150/100",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.4,
+    "heartRate": 68,
+    "bloodPressure": "118/78",
+    "respiratoryRate": 15,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 37.9,
+    "heartRate": 97,
+    "bloodPressure": "142/92",
+    "respiratoryRate": 20,
+    "conditions": [0, 1, 0, 0]
+  },
+  {
+    "temperature": 37.3,
+    "heartRate": 76,
+    "bloodPressure": "132/86",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.1,
+    "heartRate": 108,
+    "bloodPressure": "154/99",
+    "respiratoryRate": 24,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.6,
+    "heartRate": 72,
+    "bloodPressure": "120/80",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.3,
+    "heartRate": 92,
+    "bloodPressure": "146/96",
+    "respiratoryRate": 21,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 37.0,
+    "heartRate": 70,
+    "bloodPressure": "127/83",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.9,
+    "heartRate": 105,
+    "bloodPressure": "158/102",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.3,
+    "heartRate": 65,
+    "bloodPressure": "115/75",
+    "respiratoryRate": 14,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.0,
+    "heartRate": 98,
+    "bloodPressure": "143/93",
+    "respiratoryRate": 19,
+    "conditions": [0, 1, 0, 0]
+  },
+  {
+    "temperature": 37.5,
+    "heartRate": 77,
+    "bloodPressure": "135/88",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.4,
+    "heartRate": 112,
+    "bloodPressure": "160/105",
+    "respiratoryRate": 26,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.9,
+    "heartRate": 73,
+    "bloodPressure": "121/81",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.6,
+    "heartRate": 103,
+    "bloodPressure": "148/98",
+    "respiratoryRate": 22,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 37.2,
+    "heartRate": 72,
+    "bloodPressure": "126/84",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.3,
+    "heartRate": 110,
+    "bloodPressure": "157/101",
+    "respiratoryRate": 24,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.7,
+    "heartRate": 70,
+    "bloodPressure": "119/79",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.1,
+    "heartRate": 95,
+    "bloodPressure": "144/94",
+    "respiratoryRate": 20,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 37.6,
+    "heartRate": 79,
+    "bloodPressure": "136/89",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.0,
+    "heartRate": 107,
+    "bloodPressure": "155/100",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.8,
+    "heartRate": 71,
+    "bloodPressure": "121/80",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.4,
+    "heartRate": 100,
+    "bloodPressure": "149/97",
+    "respiratoryRate": 21,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 37.1,
+    "heartRate": 75,
+    "bloodPressure": "130/85",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.2,
+    "heartRate": 109,
+    "bloodPressure": "156/101",
+    "respiratoryRate": 24,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.6,
+    "heartRate": 68,
+    "bloodPressure": "118/77",
+    "respiratoryRate": 15,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.8,
+    "heartRate": 106,
+    "bloodPressure": "153/100",
+    "respiratoryRate": 22,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.4,
+    "heartRate": 77,
+    "bloodPressure": "132/87",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.5,
+    "heartRate": 113,
+    "bloodPressure": "161/106",
+    "respiratoryRate": 26,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.0,
+    "heartRate": 71,
+    "bloodPressure": "125/82",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.9,
+    "heartRate": 104,
+    "bloodPressure": "150/100",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.3,
+    "heartRate": 75,
+    "bloodPressure": "128/83",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.7,
+    "heartRate": 114,
+    "bloodPressure": "163/107",
+    "respiratoryRate": 27,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.2,
+    "heartRate": 74,
+    "bloodPressure": "127/82",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.0,
+    "heartRate": 90,
+    "bloodPressure": "143/92",
+    "respiratoryRate": 19,
+    "conditions": [0, 1, 0, 0]
+  },
+  {
+    "temperature": 36.5,
+    "heartRate": 69,
+    "bloodPressure": "117/76",
+    "respiratoryRate": 15,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.6,
+    "heartRate": 111,
+    "bloodPressure": "160/104",
+    "respiratoryRate": 26,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.7,
+    "heartRate": 79,
+    "bloodPressure": "134/88",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.0,
+    "heartRate": 108,
+    "bloodPressure": "154/102",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.4,
+    "heartRate": 66,
+    "bloodPressure": "116/75",
+    "respiratoryRate": 14,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.1,
+    "heartRate": 90,
+    "bloodPressure": "144/93",
+    "respiratoryRate": 21,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 36.9,
+    "heartRate": 72,
+    "bloodPressure": "122/82",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.8,
+    "heartRate": 115,
+    "bloodPressure": "164/108",
+    "respiratoryRate": 27,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.5,
+    "heartRate": 77,
+    "bloodPressure": "133/87",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.2,
+    "heartRate": 92,
+    "bloodPressure": "146/96",
+    "respiratoryRate": 21,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 36.8,
+    "heartRate": 70,
+    "bloodPressure": "121/80",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.7,
+    "heartRate": 104,
+    "bloodPressure": "151/99",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.4,
+    "heartRate": 76,
+    "bloodPressure": "132/86",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.9,
+    "heartRate": 116,
+    "bloodPressure": "165/109",
+    "respiratoryRate": 27,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.0,
+    "heartRate": 71,
+    "bloodPressure": "126/83",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.4,
+    "heartRate": 99,
+    "bloodPressure": "147/97",
+    "respiratoryRate": 22,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 36.6,
+    "heartRate": 69,
+    "bloodPressure": "118/78",
+    "respiratoryRate": 15,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.2,
+    "heartRate": 107,
+    "bloodPressure": "156/102",
+    "respiratoryRate": 24,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.3,
+    "heartRate": 74,
+    "bloodPressure": "129/84",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.5,
+    "heartRate": 101,
+    "bloodPressure": "150/99",
+    "respiratoryRate": 21,
+    "conditions": [0, 1, 1, 0]
+  },
+  {
+    "temperature": 36.7,
+    "heartRate": 71,
+    "bloodPressure": "120/79",
+    "respiratoryRate": 16,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.1,
+    "heartRate": 106,
+    "bloodPressure": "154/101",
+    "respiratoryRate": 23,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.8,
+    "heartRate": 82,
+    "bloodPressure": "138/89",
+    "respiratoryRate": 20,
+    "conditions": [0, 1, 0, 0]
+  },
+  {
+    "temperature": 39.3,
+    "heartRate": 109,
+    "bloodPressure": "157/103",
+    "respiratoryRate": 24,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 36.9,
+    "heartRate": 73,
+    "bloodPressure": "123/81",
+    "respiratoryRate": 17,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.7,
+    "heartRate": 114,
+    "bloodPressure": "162/107",
+    "respiratoryRate": 27,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.1,
+    "heartRate": 74,
+    "bloodPressure": "128/82",
+    "respiratoryRate": 18,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 38.0,
+    "heartRate": 90,
+    "bloodPressure": "143/92",
+    "respiratoryRate": 19,
+    "conditions": [0, 1, 0, 0]
+  },
+  {
+    "temperature": 36.4,
+    "heartRate": 65,
+    "bloodPressure": "116/75",
+    "respiratoryRate": 14,
+    "conditions": [1, 0, 0, 0]
+  },
+  {
+    "temperature": 39.5,
+    "heartRate": 112,
+    "bloodPressure": "160/105",
+    "respiratoryRate": 26,
+    "conditions": [0, 1, 1, 1]
+  },
+  {
+    "temperature": 37.9,
+    "heartRate": 81,
+    "bloodPressure": "137/88",
+    "respiratoryRate": 19,
+    "conditions": [1, 0, 0, 0]
+  }
+]
