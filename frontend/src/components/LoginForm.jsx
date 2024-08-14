@@ -27,42 +27,52 @@ function LoginForm() {
   };
 
   return (
-    <div className="form-container">
-      <h1>Login</h1>
-      {error && <p className="error-message">{error}</p>}
-      <form onSubmit={handleLogin}>
-        <div>
-          <label>Email</label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label>Password</label>
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label>Login as</label>
-          <select
-            value={userType}
-            onChange={(e) => setUserType(e.target.value)}
+    <div className="min-h-screen flex items-center justify-center bg-dark-bg">
+      <div className="glass-card-dark">
+        <h1 className="text-5xl font-extrabold mb-10 text-center gradient-text">Login</h1>
+        {error && <p className="text-red-600 text-center mb-6">{error}</p>}
+        <form onSubmit={handleLogin}>
+          <div className="mb-8 form-group">
+            <label className="block text-lg font-medium mb-2">Email</label>
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="glass-input-dark form-input"
+              placeholder="ale@ale.ca"
+              required
+            />
+          </div>
+          <div className="mb-8 form-group">
+            <label className="block text-lg font-medium mb-2">Password</label>
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="glass-input-dark form-input"
+              placeholder="••••••••"
+              required
+            />
+          </div>
+          <div className="mb-10 form-group">
+            <label className="block text-lg font-medium mb-2">Login as</label>
+            <select
+              value={userType}
+              onChange={(e) => setUserType(e.target.value)}
+              className="glass-input-dark form-input"
+            >
+              <option value="nurse">Nurse</option>
+              <option value="patient">Patient</option>
+            </select>
+          </div>
+          <button
+            type="submit"
+            className="glass-button-dark form-button"
           >
-            <option value="nurse">Nurse</option>
-            <option value="patient">Patient</option>
-          </select>
-        </div>
-        <button type="submit">
-          Login
-        </button>
-      </form>
+            Login
+          </button>
+        </form>
+      </div>
     </div>
   );
 }

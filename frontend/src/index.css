@@ -1,10 +1,10 @@
 :root {
   font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
   font-weight: 400;
   color-scheme: dark;
   color: #e0e0e0;
-  background-color: #121212;
+  background-color: #0d0d0d;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -18,30 +18,39 @@ body {
   align-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #121212;
+  background-color: #0d0d0d;
+}
+
+input, select, button {
+  outline: none;
+  font-family: 'Inter', sans-serif;
+}
+
+input::placeholder, select::placeholder {
+  color: #a1a1aa;
 }
 
 h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
   color: #e0e0e0;
 }
 
 button {
-  border-radius: 8px;
-  padding: 0.75rem 1.25rem;
-  font-size: 1rem;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
   font-family: inherit;
   cursor: pointer;
   transition: background-color 0.3s ease;
   color: #fff;
-  background-color: #646cff;
+  background-color: #ff7e5f;
   border: none;
 }
 
 button:hover {
-  background-color: #535bf2;
+  background-color: #e8653c;
 }
 
 button:focus,

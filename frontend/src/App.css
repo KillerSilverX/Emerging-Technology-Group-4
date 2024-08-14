@@ -1,81 +1,53 @@
-#root {
+.form-group {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
-  background-color: #121212;
-  font-family: 'Inter', sans-serif;
 }
 
-.form-container {
-  background-color: #1e1e2f;
-  padding: 2rem;
+.form-input {
+  width: 100%;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 2px solid #525252;
   border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  width: 100%;
-  max-width: 400px;
-  color: #e0e0e0;
-  text-align: left;
-  margin: 0 auto;
-}
-
-.form-container h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
   color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-.form-container input,
-.form-container select {
-  width: 100%;
-  padding: 0.9rem;
-  margin-bottom: 1.5rem;
-  border: 1px solid #3e3e5e;
-  border-radius: 8px;
-  font-size: 1.1rem;
-  color: #ffffff;
-  background-color: #2a2a3b;
-  transition: border-color 0.3s ease;
-}
-
-.form-container input:focus,
-.form-container select:focus {
+.form-input:focus {
   outline: none;
-  border-color: #646cff;
-  box-shadow: 0 0 0 3px rgba(100, 108, 255, 0.3);
+  border-color: #ff7e5f;
+  box-shadow: 0 0 0 4px rgba(255, 126, 95, 0.5);
+  transform: scale(1.05);
 }
 
-.form-container button {
-  width: 100%;
-  padding: 0.9rem;
-  border-radius: 8px;
-  background-color: #646cff;
-  color: white;
-  font-weight: 700;
-  font-size: 1.1rem;
-  transition: background-color 0.3s ease;
-  border: none;
-}
-
-.form-container button:hover {
-  background-color: #535bf2;
-}
-
-.form-container .error-message,
-.form-container .success-message {
-  margin-bottom: 1.5rem;
-  font-size: 1rem;
-}
-
-.form-container .error-message {
-  color: #ff6b6b;
-}
-
-.form-container .success-message {
-  color: #51d88a;
-}
-
-.form-container label {
-  font-size: 1rem;
+.form-input::placeholder {
   color: #b0b0b0;
+  font-size: 1.2rem;
+}
+
+.form-button {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #ff7e5f;
+  color: white;
+  font-weight: 800;
+  font-size: 1.5rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+  box-shadow: 0 10px 20px rgba(255, 126, 95, 0.5);
+}
+
+.form-button:hover {
+  background-color: #e8653c;
+  transform: translateY(-3px);
+}
+
+.form-button:active {
+  background-color: #d5542b;
+  transform: translateY(1px);
 }

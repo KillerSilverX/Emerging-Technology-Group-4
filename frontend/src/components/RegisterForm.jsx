@@ -20,51 +20,60 @@ function RegisterForm() {
   };
 
   return (
-    <div className="form-container">
-      <h1>Register</h1>
-      {message && <p className={message.includes('successful') ? 'success-message' : 'error-message'}>{message}</p>}
-      <form onSubmit={handleRegister}>
-        <div>
-          <label>Name</label>
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label>Email</label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label>Password</label>
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label>Register as</label>
-          <select
-            value={userType}
-            onChange={(e) => setUserType(e.target.value)}
+    <div className="min-h-screen flex items-center justify-center bg-gray-900">
+      <div className="glass-card">
+        <h1 className="text-3xl font-bold mb-6 text-center">Register</h1>
+        {message && <p className="success-message text-center">{message}</p>}
+        <form onSubmit={handleRegister}>
+          <div className="mb-4">
+            <label className="block text-sm font-medium mb-2">Name</label>
+            <input
+              type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              className="glass-input"
+              required
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block text-sm font-medium mb-2">Email</label>
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="glass-input"
+              required
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block text-sm font-medium mb-2">Password</label>
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="glass-input"
+              required
+            />
+          </div>
+          <div className="mb-6">
+            <label className="block text-sm font-medium mb-2">Register as</label>
+            <select
+              value={userType}
+              onChange={(e) => setUserType(e.target.value)}
+              className="glass-input"
+            >
+              <option value="nurse">Nurse</option>
+              <option value="patient">Patient</option>
+            </select>
+          </div>
+          <button
+            type="submit"
+            className="glass-button"
           >
-            <option value="nurse">Nurse</option>
-            <option value="patient">Patient</option>
-          </select>
-        </div>
-        <button type="submit">
-          Register
-        </button>
-      </form>
+            Register
+          </button>
+        </form>
+      </div>
     </div>
   );
 }
