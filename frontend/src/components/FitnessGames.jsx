@@ -53,7 +53,7 @@ function FitnessGames() {
           />
         );
       default:
-        return <p>Please select a game to start playing.</p>;
+        return <p className="text-gray-900">Please select a game to start playing.</p>;
     }
   };
 

@@ -124,6 +124,7 @@ function VitalSignsForm({ patientId }) {
           type="number"
           value={temperature}
           onChange={(e) => setTemperature(e.target.value)}
+          placeholder="Min 35 | Max 42"
           min={normalRanges.temperature.min}
           max={normalRanges.temperature.max}
           className="w-full p-4 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-lg"
@@ -138,6 +139,7 @@ function VitalSignsForm({ patientId }) {
           type="number"
           value={heartRate}
           onChange={(e) => setHeartRate(e.target.value)}
+          placeholder="Min 40 | Max 180"
           min={normalRanges.heartRate.min}
           max={normalRanges.heartRate.max}
           className="w-full p-4 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-lg"
@@ -152,7 +154,7 @@ function VitalSignsForm({ patientId }) {
           type="text"
           value={bloodPressure}
           onChange={(e) => setBloodPressure(e.target.value)}
-          placeholder="e.g., 120/80"
+          placeholder="80-200 / 40-120"
           className="w-full p-4 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-lg"
           required
         />
@@ -165,6 +167,7 @@ function VitalSignsForm({ patientId }) {
           type="number"
           value={respiratoryRate}
           onChange={(e) => setRespiratoryRate(e.target.value)}
+          placeholder="Min 8 | Max 40"
           min={normalRanges.respiratoryRate.min}
           max={normalRanges.respiratoryRate.max}
           className="w-full p-4 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-lg"

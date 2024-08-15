@@ -33,7 +33,7 @@ function RewardSystem() {
       return points > 0 ? (
         <p className="text-green-500">All goals achieved!</p>
       ) : (
-        <p className="text-gray-500">No goals achieved yet. Start earning points to unlock rewards!</p>
+        <p className="text-gray-900">No goals achieved yet. Start earning points to unlock rewards!</p>
       );
     }
 
@@ -41,7 +41,7 @@ function RewardSystem() {
 
     return (
       <div className="mb-4">
-        <p className="font-medium mb-2">
+        <p className="font-medium mb-2 text-gray-900">
           Next Goal: {nextGoal.name} ({points}/{nextGoal.pointsRequired} points)
         </p>
         <div className="w-full bg-gray-200 rounded-full h-8">
@@ -74,7 +74,7 @@ function RewardSystem() {
   };
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow-lg">
+    <div className="bg-white p-6 rounded-lg shadow-lg text-gray-900">
       <h2 className="text-2xl font-bold mb-4">Your Rewards</h2>
       {renderGoalProgress()}
       <h3 className="text-xl font-semibold mb-4">Completed Goals</h3>
