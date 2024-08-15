@@ -24,7 +24,7 @@ function LoginForm() {
         localStorage.setItem("nurseId", response.data.nurseId);
         localStorage.setItem("patientId", response.data.patientId);
         const dashboard =
-          userType === "nurse" ? "/nurse-dashboard" : "/patient-dashboard";
+          userType === "nurse" ? "/nurse-dashboard" : "/dashboard";
         navigate(dashboard);
       }
     } catch (err) {

@@ -6,7 +6,7 @@ const cors = require("cors");
 const { graphqlHTTP } = require("express-graphql");
 const schema = require("./schemas/schema");
 const routes = require("./routes/index");
-const tf = require("@tensorflow/tfjs-node");
+const tf = require("@tensorflow/tfjs-node-gpu");
 const path = require("path");
 
 const app = express();
